@@ -1,0 +1,30 @@
+.flex-parent{
+    border: 2px solid blue;
+    height: 500px;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    flex-direction:column;
+}
+
+.flex-child{
+    margin: 5px;
+    width: 100px;
+    height: 40px;
+}
+
+.red{
+    background: red;
+}
+
+.blue{
+    background: blue;
+}
+
+.orange{
+    background: orange;
+}
+
+.pink{
+    background: pink;
+}

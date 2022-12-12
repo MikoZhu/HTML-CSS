@@ -1,0 +1,41 @@
+p{
+    color: green;
+    font-size: 32px;
+}
+.second-color{
+    color: purple;
+    font-size: 40px;
+}
+.grey-box{
+    background-color: lightgray;
+    padding: 20px;
+    width:100%;
+}
+
+div img{
+    padding: 40px;
+    width: 400px;
+}
+
+
+@media (min-width: 667px) and (max-width:1024px){
+    body{
+        flex-direction: row;
+        background: red;
+        flex-wrap: wrap;
+    }
+    .div{
+        width: 40%;
+    }
+}
+
+@media (min-width:1025px){
+    body{
+        flex-direction: row;
+        background: whitesmoke;
+    }
+    .div{
+        width: 40%;
+    }
+}
+    
